@@ -37,7 +37,7 @@ mode = int(input("Enter 0 to use the hardcoded IP ranges, or 1 to enter custom I
 
 if mode == 0:
     # Hardcoded IP ranges
-    ip_ranges = [("10.2.76.0", "10.2.76.254"), ("10.0.78.0", "10.0.78.254")]
+    ip_ranges = [("xx.xx.xx.xx", "xx.xx.xx.xx"), ("xx.xx.xx.xx", "xx.xx.xx.xx")]
 else:
     # Custom IP ranges
     ip_ranges = []
